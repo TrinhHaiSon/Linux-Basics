@@ -43,5 +43,16 @@ Examples of freeware are Adobe Reader, Skype and Command and Conquer: Tiberian S
 
 Both the Free Software and the Open Source Software movement largely pursue similar goals and endorse similar software licenses. But historically, there has been some perception of differentiation due to different emphases. Where the Free Software movement focuses on the rights (the four freedoms) which Free Software provides to its users, the Open Source Software movement points to its Open Source Definition and the advantages of peer-to-peer software development.  
 Recently, the term free and open source software or FOSS has arisen as a neutral alternative. A lesser-used variant is free/libre/open source software (FLOSS), which uses libre to clarify the meaning of free as in freedom rather than as in at no charge.  
-Examples of free software are gcc, MySQL and gimp.
+Examples of free software are gcc, MySQL and gimp.  
 
+##### 3.3 **Using GPLv3 software**
+
+You can use GPLv3 software almost without any conditions. If you solely run the software you even don’t have to accept the terms of the GPLv3. However, any other use - such as modifying or distributing the software - implies acceptance.  
+In case you use the software internally (including over a network), you may modify the software without being obliged to distribute your modification. You may hire third parties to work on the software exclusively for you and under your direction and control. But if you modify the software and use it otherwise than merely internally, this will be considered as distribution. You must distribute your modifications under GPLv3 (the copyleft principle). Several more obligations apply if you distribute GPLv3 software. Check the GPLv3 license carefully.  
+You create output with GPLv3 software: The GPLv3 does not automatically apply to the output.  
+
+##### 3.3 **BSD license**
+
+There are several versions of the original Berkeley Distribution License. The most common one is the 3-clause license ("New BSD License" or "Modified BSD License").  
+This is a permissive free software license. The license places minimal restrictions on how the software can be redistributed. This is in contrast to copyleft licenses such as the GPLv. 3 discussed above, which have a copyleft mechanism.  
+This difference is of less importance when you merely use the software, but kicks in when you start redistributing verbatim copies of the software or your own modified versions.
