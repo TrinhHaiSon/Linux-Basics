@@ -31,4 +31,13 @@ Example:
 **ls -lh**: look almost like ls -l but include sizes of files and directories  
 **mkdir**: make your own directory.  
 **mkdir -p**: this following command will fail, because the parent directory of 'demo1' does not exist  
-![alt-text](Images/Screenshot from 2017-01-27 11-49-06.png)
+![alt-text](Images/Screenshot from 2017-01-27 11-49-06.png)  
+when given the option -p, then mkdir will create parent directories as needed.  
+**rmdir**: when the directory is empty you can remove it by rmdir command.  
+**rmdir -p**: similar to mkdir -p option, you can also use rmdir -p to recursively remove directories.  
+#### 3. **Working with file**
+
+Files on Linux (or any Unix) are case sensitive. This means that FILE1 is different from file1, and /etc/hosts is different from 
+/etc/Hosts (the latter one does not exist on a typical Linux computer).  
+In Linux,everything is a file. A directory is a special kind of file, but it is still a (case sensitive!) file. Each  terminal window (for example /dev/pts/4), any hard disk or partition (for example /dev/sdb1) and any process are all represented somewhere in the file system as a file. 
+
