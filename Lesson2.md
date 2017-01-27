@@ -15,5 +15,20 @@ Example:
 Example:  
 ![alt-text](Images/Screenshot from 2017-01-26 22-41-39.png)  
 **man section:** By now you will have noticed the numbers between the round brackets. man man will explain  to  you  that  these  are section numbers. Executable programs and shell commands reside in section one.  
-![alt-text](Images/Screenshot from 2017-01-26 22-46-08.png)
+![alt-text](Images/Screenshot from 2017-01-26 22-46-08.png)  
+**man $section $file:** Therefor, when referring to the man page of the passwd command, you will see it written as passwd(1); when referring to the passwd file, you will see it written as passwd(5). The screenshot explains how to open the man page in the correct section.  
+![alt-text](Images/Screenshot from 2017-01-26 22-50-30.png)  
 
+#### 2. **Working with directory**
+
+**$pwd**: (Print Working Directory) show your current dirrectory.  
+**$cd**: change your current directory  
+**$cd -**: go to previous directory  
+**tab key**: tab key can help you in typing a paht without errors. If you type a path to a directory correctly then when you hit tab key, a slash (/) will appear at the end of the path , if you type wrong, nothing happens. 
+**ls**: list the contents of the current directory  
+**ls -a**: list all files (include hidden files) and directory (include hidden directories) of the current directory  
+**ls -l**: list the contents with more detail (created date, user authoriy,...) of the current directory  
+**ls -lh**: look almost like ls -l but include sizes of files and directories  
+**mkdir**: make your own directory.  
+**mkdir -p**: this following command will fail, because the parent directory of 'demo1' does not exist  
+![alt-text](Images/Screenshot from 2017-01-27 11-49-06.png)
